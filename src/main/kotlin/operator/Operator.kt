@@ -8,4 +8,9 @@ fun main(args: Array<String>) {
     var a_ile_e='a'.rangeTo('e')
     var sonuc2='i' in a_ile_e
     println("i harfi a ile e arasında mı?"+sonuc2)
+
+    var yeni_aralik=bes_ile_on.step(2)
+    var sonuc3=6 in yeni_aralik
+    println("6 rakamı 5 ile 10 arasında mı?"+sonuc3)
+
 }
